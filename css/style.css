@@ -4,11 +4,22 @@ body {
 }
 
 
+a:hover {
+    background: lightblue;
+}
+
+.background-image {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
 .container {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
-    background: rgb(233, 224, 228);
-    border: rgb(252, 250, 250) solid 5px;
+    background: #ffffff ;
+    border: #eeeeee solid 5px;
 
 }
 
@@ -17,17 +28,23 @@ h1 {
 }
 
 hr {
-background: black;
+background: #eeeeee;
 }
 
 img {
 
     float: left;
     margin: 20px 20px 20px 0;
-    border: rgb(252, 250, 250) solid 5px;
+    border:#eeeeee solid 5px;
 }
 
 p {
 
     margin: 20px;
+}
+
+footer {
+padding: 20px;
+background: #ffffff;
+text-align: center;
 }
