@@ -1,6 +1,17 @@
 body {
     background: rgb(115, 115, 243);
     clear: both;
+    font-family: Audiowide;
+}
+
+/* Nav Bar */
+.navbar-brand {
+    font-size: 1.75rem;
+    background: rgb(115, 115, 243);
+}
+
+ul {
+    font-size: 1.25rem;
 }
 
 
@@ -8,43 +19,69 @@ a:hover {
     background: lightblue;
 }
 
+/* Background image */
 .background-image {
-    margin-bottom: 10px;
+    background: cover;
+    background-repeat: no-repeat;
     padding: 20px;
     background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 }
 
+/* Content */
 .container {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 20px;
-    background: #ffffff ;
+    padding: 50px;
+    background: #ffffff;
     border: #eeeeee solid 5px;
 
 }
 
-h1 {
-
-}
+h1 {}
 
 hr {
-background: #eeeeee;
+    background: #eeeeee;
 }
 
 img {
 
     float: left;
     margin: 20px 20px 20px 0;
-    border:#eeeeee solid 5px;
+    border: #eeeeee solid 5px;
+}
+
+.text {
+
+    margin-top: 40px;
+
 }
 
 p {
-
-    margin: 20px;
+    font-family: Teko;
+    font-size: 30px;
 }
+
+/* footer */
 
 footer {
-padding: 20px;
-background: #ffffff;
-text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    text-align: center;
 }
+
+
+@media only screen and (max-width:400px) {
+
+    .container {
+
+        padding-left: 10px;
+    }
+
+
+    img {
+        width: 175px;
+    }
+
+    p {
+        font-size: 20px;
+    }
