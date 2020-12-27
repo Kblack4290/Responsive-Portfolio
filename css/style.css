@@ -8,6 +8,7 @@ body {
 .navbar-brand {
     font-size: 1.75rem;
     background: rgb(115, 115, 243);
+    
 }
 
 ul {
@@ -21,7 +22,7 @@ a:hover {
 
 /* Background image */
 .background-image {
-    background: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
     background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -37,7 +38,9 @@ a:hover {
 
 }
 
-h1 {}
+h1 {
+   
+}
 
 hr {
     background: #eeeeee;
@@ -46,7 +49,7 @@ hr {
 img {
 
     float: left;
-    margin: 20px 20px 20px 0;
+    margin: 20px 20px 10px 0;
     border: #eeeeee solid 5px;
 }
 
@@ -57,8 +60,8 @@ img {
 }
 
 p {
-    font-family: Teko;
-    font-size: 30px;
+    font-family: Roboto;
+    font-size: 20px;
 }
 
 /* footer */
@@ -67,16 +70,26 @@ footer {
     padding: 20px;
     background: #ffffff;
     text-align: center;
+    border-top: rgb(115, 115, 243) solid 5px;
+}
+
+@media only screen and (max-width:325px) {
+h1 {
+    font-size: 2rem;
+  
+}
+
 }
 
 
-@media only screen and (max-width:400px) {
+
+@media only screen and (max-width:472px) {
 
     .container {
 
         padding-left: 10px;
+        padding-right: 10px;
     }
-
 
     img {
         width: 175px;
@@ -85,3 +98,17 @@ footer {
     p {
         font-size: 20px;
     }
+
+}
+
+@media only screen and (max-width:768px) {
+
+.container {
+padding-left: 10px;
+    }
+}
+
+
+
+
+
