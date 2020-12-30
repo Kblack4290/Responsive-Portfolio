@@ -9,15 +9,18 @@ body {
     font-size: 1.75rem;
     background: rgb(115, 115, 243);
     
+
 }
 
 ul {
     font-size: 1.25rem;
 }
 
-
-a:hover {
-    background: lightblue;
+.navbar-brand:hover {
+    background: #ffffff;
+}
+li:hover {
+    background: rgb(115, 115, 243);
 }
 
 /* Background image */
@@ -38,18 +41,16 @@ a:hover {
 
 }
 
-h1 {
-   
-}
+h1 {}
 
 hr {
     background: #eeeeee;
 }
 
-img {
-
+#about-img {
+    width: 33%;
     float: left;
-    margin: 20px 20px 10px 0;
+    margin: 20px 20px 5px 0;
     border: #eeeeee solid 5px;
 }
 
@@ -66,22 +67,27 @@ p {
 
 /* footer */
 
-footer {
+.footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:auto;
     padding: 20px;
     background: #ffffff;
     text-align: center;
     border-top: rgb(115, 115, 243) solid 5px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-@media only screen and (max-width:325px) {
-h1 {
-    font-size: 2rem;
-  
-}
+/* @media only screen and (max-width:325px) {
+    h1 {
+        font-size: 2rem;
+
+    }
 
 }
-
-
 
 @media only screen and (max-width:472px) {
 
@@ -91,24 +97,17 @@ h1 {
         padding-right: 10px;
     }
 
-    img {
+img {
         width: 175px;
     }
 
     p {
         font-size: 20px;
     }
-
 }
-
 @media only screen and (max-width:768px) {
 
-.container {
-padding-left: 10px;
+    .container {
+        padding-left: 10px;
     }
-}
-
-
-
-
-
+} */
