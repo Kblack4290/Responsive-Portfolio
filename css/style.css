@@ -1,14 +1,23 @@
+html {
+
+    background: url(../images/pexels-photo-924824.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 body {
-    background: rgb(115, 115, 243);
+
     clear: both;
     font-family: Audiowide;
+    background: url(../images/pexels-photo-924824.jpeg) no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 /* Nav Bar */
 .navbar-brand {
     font-size: 1.75rem;
     background: rgb(115, 115, 243);
-    
+
 
 }
 
@@ -19,95 +28,73 @@ ul {
 .navbar-brand:hover {
     background: #ffffff;
 }
+
 li:hover {
     background: rgb(115, 115, 243);
 }
 
-/* Background image */
-.background-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-    background-image: url(https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-}
-
-/* Content */
+/* content */
 .container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
-    background: #ffffff;
-    border: #eeeeee solid 5px;
-
+    background: #f8f9fa;
+    margin-top: 100px;
+    padding: 20px;
+    border: #eeeeee 5px solid;
 }
-
-h1 {}
 
 hr {
     background: #eeeeee;
 }
 
-#about-img {
-    width: 33%;
-    float: left;
-    margin: 20px 20px 5px 0;
-    border: #eeeeee solid 5px;
-}
-
-.text {
-
-    margin-top: 40px;
-
-}
-
-p {
+.content {
     font-family: Roboto;
-    font-size: 20px;
+
+}
+
+#about-img {
+    border: #eeeeee solid 5px;
+    margin-right: 20px;
+    float: left;
+    width: 33%;
 }
 
 /* footer */
 
 .footer {
-    position: fixed;
-    left:0;
-    bottom:0;
-    width: 100%;
-    height:auto;
-    padding: 20px;
-    background: #ffffff;
+    background: #f8f9fa;
     text-align: center;
-    border-top: rgb(115, 115, 243) solid 5px;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: auto;
     margin-bottom: 0;
     margin-top: 0;
+    border-top: rgb(115, 115, 243) solid 5px;
 }
 
-/* @media only screen and (max-width:325px) {
-    h1 {
-        font-size: 2rem;
+@media screen and (max-width:500px) {
 
+    #about-img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 20px;
     }
 
 }
 
-@media only screen and (max-width:472px) {
+@media screen and (max-width:400px) {
 
+    #about-img {
+        float: none;
+    }
+
+    html, Body{
+        background-image: none;
+    }
+    
     .container {
 
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-img {
-        width: 175px;
-    }
-
-    p {
-        font-size: 20px;
+        margin-top: 0;
     }
 }
-@media only screen and (max-width:768px) {
-
-    .container {
-        padding-left: 10px;
-    }
-} */
