@@ -1,8 +1,130 @@
-h4 {
-background: yellow;
+html {
+    background: url(../images/pexels-photo-924824.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+body {
+    font-family: audiowide;
+    background: url(../images/pexels-photo-924824.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    clear: both;
+}
+
+/* Nav Bar */
+
+nav {
+    border-bottom: rgb(115, 115, 243) solid 5px;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    background: rgb(115, 115, 243);
+}
+
+ul {
+    font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+    background: #ffffff;
+}
+
+li:hover {
+    background: rgb(115, 115, 243);
+}
+
+/* Container */
+
+.container {
+    background: #f8f9fa;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border: #eeeeee solid 5px;
+}
+
+/* content */
+h1 {
+    margin-left: 10px;
+}
+
+.content {
+    font-family: Roboto;
+    float: left;
 
 }
 
-.col-sm-3 {
-    float: left;
+.first-name {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.input-group>.custom-file,
+.input-group>.custom-select,
+.input-group>.form-control,
+.input-group>.form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    height: 150px;
+    margin-bottom: 0;
+}
+
+
+
+/* button */
+.btn,
+.btn-primary {
+    background: rgb(115, 115, 243) !important;
+    border: rgb(115, 115, 243) solid 1px !important;
+}
+
+/* Image */
+
+img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top: rgb(115, 115, 243) solid 5px;
+}
+
+@media screen and (max-width: 425px) {
+
+    html,
+    body {
+        background-image: none;
+
+    }
+
+    .container {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    img {
+        display: none;
+    }
+
 }
