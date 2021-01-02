@@ -18,6 +18,7 @@ body {
 nav {
     border-bottom: rgb(115, 115, 243) solid 5px;
 }
+
 .navbar-brand {
     font-size: 1.75rem;
     background: rgb(115, 115, 243);
@@ -30,7 +31,7 @@ ul {
 }
 
 .navbar-brand:hover {
-    background:  #f8f9fa;
+    background: #f8f9fa;
 }
 
 li:hover {
@@ -41,6 +42,7 @@ li:hover {
 .container {
     background: #f8f9fa;
     margin-top: 100px;
+    margin-bottom: 20px;
     padding: 20px;
     border: #eeeeee 5px solid;
 }
@@ -88,18 +90,27 @@ hr {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:425px) {
 
     #about-img {
         float: none;
     }
 
-    html, Body{
+    html,
+    Body {
         background-image: none;
     }
-    
+
     .container {
 
         margin-top: 0;
     }
+}
+
+@media screen and (max-width: 320px) {
+
+    img {
+        display: none;
+    }
+
 }
