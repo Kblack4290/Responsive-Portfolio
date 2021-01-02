@@ -18,6 +18,7 @@ body {
 nav {
     border-bottom: rgb(115, 115, 243) solid 5px;
 }
+
 .navbar-brand {
     font-size: 1.75rem;
     background: rgb(115, 115, 243);
@@ -30,7 +31,7 @@ ul {
 }
 
 .navbar-brand:hover {
-    background:  #f8f9fa;
+    background: #f8f9fa;
 }
 
 li:hover {
@@ -40,7 +41,26 @@ li:hover {
 
 
 
+/* content */
 
+
+
+.card {
+    margin-bottom: 50px;
+    
+}
+
+.card-text {
+
+    font-family: Roboto;
+}
+
+.btn,
+.btn-primary {
+    background: rgb(115, 115, 243) !important;
+    border: rgb(115, 115, 243) solid 1px !important;
+    font-family: Roboto;
+}
 
 
 .container {
