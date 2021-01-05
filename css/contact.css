@@ -109,6 +109,8 @@ img {
     font-size: small;
 }
 
+/* @media screen and (max-width:640px) */
+
 @media screen and (max-width: 425px) {
 
     html,
