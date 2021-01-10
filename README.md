@@ -1,1 +1,7 @@
-# Responsive-Portfolio
+# Responsive Portfolio
+
+My objective with this project was to create responsive portfolio webpage using Bootstrap CSS frameworks. I have created an About me, Portfolio, and Contact me page that can be accessed through the responsive navigation bar at the top of each page. Even my name has a link that will bring you to my  GitHub profile.
+
+The About me has a personalized photo and a brief description of myself. On the portfolio page I have links to my completed and current projects, so visitors have easy access to my work. Visitors can then navigate to my contact page to send me a message. Each of these pages are responsive on extra small to extra large screens. This was able to be accomplished by using Bootstrap, customized Css, and minimal media queries. Once you begin to minimize each page you will notice that images will shrink until they are hidden on sm-xs media screens.
+
+I have a created a sticky foot that will remain at the bottom at the window no matter what size or where you are located on each webpage. Visitors can see my LinkedIn profile by selecting the blue LinkedIn icon. Feel free to visit my page to learn a little bit more about me and contact me if you would like to learn more!
