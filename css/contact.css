@@ -27,7 +27,7 @@ ul {
 }
 
 .navbar-brand:hover {
-    background: #ffffff;
+    background: #f8f9fa;
 }
 
 li:hover {
@@ -108,6 +108,8 @@ h1 {
     border-top: rgb(115, 115, 243) solid 5px;
     font-size: small;
 }
+
+/* @media screen and (max-width:640px) */
 
 @media screen and (max-width: 425px) {
 
